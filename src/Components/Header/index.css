@@ -1,0 +1,26 @@
+.app {
+  /* width: 100vw; */
+  padding: 24px;
+  height: 24px;
+  background: white;
+}
+
+.displayContainer {
+  display: flex;
+  justify-content: center;
+  float: left;
+  cursor: pointer;
+}
+
+.contentWrapper {
+  display: flex;
+  align-items: center;
+  padding: 4px 8px;
+  border-radius: 4px;
+  border: 1px solid black;
+}
+
+.typoDisplay {
+  font-size: 12px;
+  margin-left: 10px;
+}

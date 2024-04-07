@@ -1,0 +1,13 @@
+/* App.css */
+.grid-container {
+  padding: 16px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 3 columns with equal width */
+  grid-gap: 10px; /* Gap between grid items */
+}
+
+.grid-item {
+  background-color: #f4f5f8;
+  border-radius: 8px;
+  text-align: left;
+}
